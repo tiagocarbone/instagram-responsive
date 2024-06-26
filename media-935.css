@@ -1,0 +1,66 @@
+@media only screen and (min-width: 935px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        max-width: 935px;
+        margin: auto;
+
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-evenly;
+        width: 900px;
+        align-items: center;
+    }
+
+    .logo-icons {
+        width: 49%;
+        display: flex;
+        justify-content: right;
+        gap: 20px;
+        
+    }
+
+    #icon{
+       margin-right: 39px;
+    }
+
+    .stories-container{
+        margin: auto;
+        width: 614px;
+        margin-top: 34px;
+        margin-bottom: 24px;
+        background-color: white;
+    }
+
+
+    .post {
+        width: 614px;
+        margin: auto;
+       display: block;
+    }
+
+    .post-overflow-mobile {
+        height: auto;
+        overflow: auto;
+    }
+
+    .fixed-bar {
+        display: none;
+    }
+
+    .overflow-935{
+        overflow: hidden;
+        height: 200px;
+    }
+
+    .menu-lateral{
+        display: none;
+    }
+
+}

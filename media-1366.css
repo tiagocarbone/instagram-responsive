@@ -1,0 +1,138 @@
+@media  only screen and (min-width: 1366px) {
+
+    body {
+        max-width: 1366px;
+       
+
+    }
+
+    .logo-container{
+        display: flex;
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+
+
+    .container-storie-sidebar{
+        display: flex;
+        
+    }
+
+
+    .stories-container{
+        margin: auto;
+        background-color: white;
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+
+    .menu-lateral {
+        display: block;
+        width: 293px;
+        height: 457px;
+        float: right;
+        margin-top: -144px;
+        margin-right: 50px;
+    }
+
+    .user-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    .user-name h1 {
+       font-family: inherit;
+       color:  #262626;
+       font-size: 14px;
+       line-height: 16.41px;
+       font-weight: 500;
+       
+    }
+
+    .user-name p {
+        font-family: inherit;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16.41px;
+        color: #8E8E8E;
+
+    }
+
+
+    .user-data {
+        display: flex;
+    }
+
+    .user-data img {
+       width: 56px;
+       height: 56px;
+        border-radius: 28px;
+    }
+
+    .sugestoes{
+        margin-top: 10px;
+        /*margin-bottom: 10px;*/
+        margin-left: 15px;
+    }
+
+    .sugestoes p{
+       font-family: inherit;
+       font-weight: 500;
+       font-size: 12px;
+       line-height: 14.06px;
+       color: #8E8E8E;
+    }
+    
+    .sugestao-container {
+        display: flex;
+        align-items: center;
+        margin-top: 16px;
+    }
+
+   .sugestao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   }
+
+   .sugestao img {
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    border-radius: 16px;
+}
+
+
+   .sugestao h2 {
+    margin-right: 15px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+   }
+
+   .sugestao-seguir p {
+    color: #139EF2;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 14.06px;
+    margin-right: 10px;
+   }
+
+   .sugestao-seguir{
+    display: flex;
+   width: 100%;
+   justify-content: flex-end;
+
+   }
+
+}
+
+    
