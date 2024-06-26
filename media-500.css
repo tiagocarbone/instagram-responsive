@@ -1,7 +1,7 @@
 @media (max-width: 500px) {
 
-    body{
-        height: 1400px;
+    .body-container{
+        height: 1100px;
         
     }
 
@@ -10,13 +10,10 @@
         margin-bottom: 20px;
     }
     
-    .post-overflow-mobile{
-        overflow: hidden;
-        
+    .post-overflow-mobile {
+        height: 420px;
     }
 
-    .fixed-bar{
-        z-index: 2;
-        
-    }
+    
+
 }
