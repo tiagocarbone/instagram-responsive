@@ -133,6 +133,16 @@
 
    }
 
+   .about-insta p {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12.89px;
+    color: #C7C7C7;
+    margin-left: 15px;
+    padding-top: 20px;
+   }
+
 }
 
     
